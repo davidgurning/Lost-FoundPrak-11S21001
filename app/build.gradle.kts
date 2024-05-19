@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.ifs21001.lostandfound"
+    namespace = "com.ifs21001.lostfounds"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.ifs21001.lostandfound"
+        applicationId = "com.ifs21001.lostfounds"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

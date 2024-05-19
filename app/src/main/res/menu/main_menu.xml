@@ -3,18 +3,42 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <group android:menuCategory="container">
         <item
+            android:id="@+id/action_add"
+            android:orderInCategory="100"
+            android:icon="@drawable/ic_add"
+            android:title="Add"
+            app:showAsAction="ifRoom">
+            <menu>
+                <item
+                    android:id="@+id/mylostfound"
+                    android:title="lost and found saya"/>
+                <item
+                    android:id="@+id/add_option2"
+                    android:title="data lost saya"/>
+                <item
+                    android:id="@+id/add_option3"
+                    android:title="data found saya"/>
+            </menu>
+        </item>
+        <item
             android:id="@+id/mainMenuProfile"
-            android:title="Profile"
+            android:title="Profile Saya"
             app:showAsAction="never" />
-
+        <item
+            android:id ="@+id/alllostfound"
+            android:title="Seluruh data Lost Found"
+            app:showAsAction="never"/>
         <item
             android:id="@+id/mainMenuFavoriteTodos"
-            android:title="Favorite Lost and Found"
+            android:title="Lost Found Fovorit Saya"
             app:showAsAction="never" />
-
         <item
             android:id="@+id/mainMenuLogout"
-            android:title="Logout"
+            android:title="Keluar"
             app:showAsAction="never" />
     </group>
+
+
+
+
 </menu>
